@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "WebCam Recorder",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "video_recorder.py",
+            "console": "integratedTerminal",
+            "args":[ "-start", "2024.3.14.15:18", "-end", "2024.3.14.15:21", "-slice_interval", "2", "-sleep_before_recording", "1", "-sleep_interval", "15" ]
+        }
+    ]
+}
