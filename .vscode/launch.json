@@ -8,9 +8,16 @@
             "name": "WebCam Recorder",
             "type": "debugpy",
             "request": "launch",
-            "program": "video_recorder.py",
+            "program": "webcam_recorder_app/video_recorder.py",
             "console": "integratedTerminal",
-            "args":[ "-start", "2024.3.14.15:18", "-end", "2024.3.14.15:21", "-slice_interval", "2", "-sleep_before_recording", "1", "-sleep_interval", "15" ]
+            "args":[ "-start", "2024.3.14.20:41", "-end", "2024.3.14.20:43", "-slice_interval", "2", "-sleep_before_recording", "1", "-sleep_interval", "15" ]
+        },
+        {
+            "name": "Video annotator",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "webcam_recorder_app/video_annotator.py",
+            "console": "integratedTerminal",
         }
     ]
 }
